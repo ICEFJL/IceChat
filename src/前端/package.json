@@ -1,0 +1,33 @@
+{
+  "name": "websocketchat",
+  "version": "0.0.0",
+  "private": true,
+  "main": "background.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron:serve": "vite --host",
+    "electron:build": "vite build && electron-builder"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vuelidate/core": "^2.0.3",
+    "axios": "^1.6.8",
+    "element-plus": "^2.7.3",
+    "pinia": "^2.1.7",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^31.2.0",
+    "electron-builder": "^24.13.3",
+    "electron-devtools-installer": "^3.2.0",
+    "sass": "^1.77.2",
+    "vite": "^5.2.8",
+    "vite-plugin-electron": "^0.28.7",
+    "vite-plugin-vue-devtools": "^7.0.25"
+  }
+}
